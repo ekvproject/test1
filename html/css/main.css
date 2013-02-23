@@ -1,0 +1,232 @@
+html {
+    background: url(../images/background-image.png) 0 0 repeat;
+    background-attachment: fixed;
+}
+body {
+    background: url(../images/background-image_1_h249.png);
+    background-repeat: repeat-x;
+    background-position: 0% 40%;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+body.page {
+    background-position: 0% 25%;
+}
+.tab {
+    font-size: 0;
+}
+.tab:first-child {
+    margin: 0;
+}
+.nav li:first-child {
+    margin-left: 0px;
+}
+.tab_center, .main-text, .main-text-plus, .text-button, .nav_plus,
+    .title-t, .title-tt, .title-a, .text, .footer {
+    font-family: "Helvetica Condensed", Helvetica, Tahoma, sans-serif;
+}
+.tab_left, .tab_center, .tab_right {
+    height: 35px;
+    display: inline-block;
+    vertical-align: top;
+}
+.tab_left, .tab_right {
+    width: 45px;
+}
+.active .tab_left {
+    background-image: url(../images/nav_tab_left.png);
+}
+.active .tab_right {
+    background-image: url(../images/nav_tab_right.png);
+}
+.active .tab_center {
+    background-image: url(../images/nav_tab_center.png);
+    background-repeat: repeat-x;
+}
+.tab_center {
+    font-size: 25px;
+    font-weight: bold;
+    color: #6b4848;
+    text-transform: uppercase;
+    padding: 0 5px;
+}
+.nav li {
+    list-style: none;
+    font-size: 0;
+    display: inline-block;
+    margin: 0;
+}
+.header {
+    width: 1020px;
+    margin: 30px auto 35px;
+    padding: 0;
+    text-align: justify;
+}
+.logo {
+    margin: 10px auto 0;
+    text-align: center;
+}
+.main-section {
+    background-image: url("../images/background-image-section.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    width: 960px;
+    min-height: 900px;
+    max-height: 100%;
+    margin: 0 auto -75px;
+    padding: 0;
+}
+.mains {
+    background-image: url("../images/background-image-mainelement_h361.png");
+    background-repeat: repeat-x;
+    height: 361px;
+    width: 844px;
+    position: relative;
+    left: 58px;
+    top: 55px;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+}
+.main-text {
+    font-size: 150px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px;
+    text-align: center;
+    margin: inherit;
+    padding: 0;
+ }
+.main-text-plus {
+    font-size: 25px;
+    color: #FFFFFF;
+    text-align: center;
+    font-stretch: extra-expanded;
+    white-space: pre;
+    margin: inherit;
+}
+.button {
+    background: url("../images/background-button-1.png");
+    background-repeat: repeat-x;
+    height: 43px;
+    width: 250px;
+    display: inline-block;
+    margin: 0 0 0 300px;;
+    border-radius: 40px;
+    box-shadow: inset -2px 2px 1px;
+}
+.button ul li {
+    display: inline-block;
+    float: left;
+
+}
+.text-button {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -5px;
+    margin-left: -3px;
+    font-weight: bold;
+}
+.text {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 17px;
+
+}
+ul.nav_plus li {
+    display: inline-block;
+    vertical-align: top;
+    list-style: none;
+    margin: 15px 8px 0 15px;
+    font-size: 13px;
+    color: #6b4848;
+}
+ul.content li {
+    display: inline-block;
+    vertical-align: top;
+    list-style: none;
+    padding: 5px;
+    float: left;
+    margin-right: 39px;
+    border: 1px;
+    border-color: black;
+}
+.title-t, .title-tt, .title-a {
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+}
+.title-t {
+    padding-top: 5px;
+}
+.title-tt, .title-a {
+    color: #808080;
+}
+.title-a {
+    margin-bottom: 25px;
+    margin-top: 0;
+    text-decoration: underline;
+}
+.content-border :first-child {
+    border: 1px;
+    border-color: #a9a9a9;
+    border-style: solid;
+    box-shadow: 0 0 5px 1px #a9a9a9;
+}
+.button_image {
+    margin-left: 10px;
+    margin-top: -3px;
+}
+.footer {
+    font-size: 15pt;
+    color: #808080;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.footer-background {
+    background: url("../images/footer-background1_h75.jpg");
+    background-repeat: repeat-x;
+    height: 75px;
+    width: 960px;
+    margin: 0 auto;
+}
+.footer-button ul li {
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+.footer-button ul li:first-child {
+    margin-left: 365px;
+}
+.footer-button ul {
+    background: url("../images/background-image-section.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    height: 40px;
+    min-height: 40px;
+    width: 920px;
+    margin: 0 auto;
+}
+.footer-button-left, .footer-button-center, .footer-button-right {
+    height: 32px;
+    vertical-align: top;
+}
+.footer-button-left {
+    background-image: url("../images/image-top-left.png");
+    background-repeat: no-repeat;
+    width: 15px;
+}
+.footer-button-center {
+    background-image: url("../images/image-top-center.jpg");
+    background-repeat: repeat-x;
+}
+.footer-button-right {
+    background-image: url("../images/image-top-right.png");
+    background-repeat: no-repeat;
+    width: 15px;
+}
